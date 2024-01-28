@@ -6,6 +6,11 @@ function add_to_do_item() {
 
     new_item.id = `${input}`
 
+    new_item.addEventListener("click", removal => {
+        let delete_item = document.getElementById(`${input}`)
+        delete_item.remove()
+    })
+
     new_item.innerHTML = input
 
     document.getElementById("list").appendChild(new_item)
