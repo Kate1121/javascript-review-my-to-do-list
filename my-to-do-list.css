@@ -1,3 +1,26 @@
+@media (max-width: 765px) {
+    body>form {
+        display: inline-block;
+        width: 100%;
+        margin: auto;
+    }
+
+    form>#to-do-item {
+        width: 60%;
+        margin: auto;
+    }
+
+    form>#add-button {
+        width: 20%;
+        margin: auto auto 20px auto;
+    }
+
+    body>ul {
+        font-size: 20px;
+        width: 80%;
+    }
+}
+
 body {
     background-color: royalblue;
     color: white;
