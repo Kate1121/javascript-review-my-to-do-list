@@ -33,3 +33,20 @@ form {
 #add-button:hover {
     background-color: rgb(228, 226, 226);
 }
+
+ul {
+    text-align: center;
+    font-size: 40px;
+    background-color: white;
+    color: black;
+    margin: auto;
+    width: 35%;
+    padding: 0px;
+}
+
+li {
+    padding: 3px 3px 3px 10px;
+    text-align: left;
+    border: 2px solid;
+    list-style-position: inside;
+}
